@@ -1,4 +1,4 @@
-# Muhammad Talha Portfolio
+# Kunal Garg Portfolio
 
 ## Folder structure
 
