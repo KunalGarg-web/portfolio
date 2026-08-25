@@ -2,139 +2,873 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Projects — Kunal Garg</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Projects — Kunal Garg</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <!-- Swiper -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12.0.3/swiper-bundle.min.css">
+  <!-- GLightbox -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox@3.3.1/dist/css/glightbox.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    <div class="noise"></div>
-    <div class="progress"></div>
-    <header class="site-header">
-        <div class="header-shell">
-            <a href="index.html" class="brand">Kunal Garg<span>.</span></a>
-            <nav class="main-nav">
-                <a href="index.html" class="">Home</a>
-                <a href="about.html" class="">About</a>
-                <a href="services.html" class="">Services</a>
-                <a href="projects.html" class="active">Projects</a>
-            </nav>
-            <a class="header-cta" href="index.html#contact">Let's Talk</a>
-            <button class="mobile-toggle" aria-label="Menu"><i></i><i></i></button>
+  <div class="noise"></div>
+  <div class="progress"></div>
+  <header class="site-header">
+    <div class="header-shell">
+      <a href="index.html" class="brand">Kunal Garg<span>.</span></a>
+      <nav class="main-nav">
+        <a href="index.html" class="">Home</a>
+        <a href="about.html" class="">About</a>
+        <a href="services.html" class="">Services</a>
+        <a href="projects.html" class="active">Projects</a>
+      </nav>
+      <a class="header-cta" href="index.html#contact">Let's Talk</a>
+      <button class="mobile-toggle" aria-label="Menu"><i></i><i></i></button>
+    </div>
+  </header>
+  <main>
+    <section class="projects_top_banner page_top_banner">
+      <div class="container">
+        <div class="top_banner_inner">
+          <div class="top_banner_lable reveal delay-2">
+            <span class="banner-line"></span>
+            PORTFOLIO / WORK
+          </div>
+          <p class="reveal delay-3"> A collection of content, campaigns, visual stories
+            and digital experiences created to attract attention,
+            build brands and drive results.
+          </p>
         </div>
-    </header>
-    <main>
-        <section class="page-hero">
-            <div class="container">
-                <div class="eyebrow reveal">Portfolio / Work</div>
-                <h1 class="display reveal">Selected work across <span>web, social, video & branding.</span></h1>
-                <p class="section-lead reveal" style="margin-top:35px">Click any project to view the image or play the
-                    video. Your local assets can be added from the assets folders and registered in js/main.js.</p>
-            </div>
-        </section>
-        <section class="section">
-            <div class="container">
-                <div class="work-grid">
-                    <a class="work-card large reveal" href="#"
-                        data-media="https://images.unsplash.com/photo-1559028012-481c04fa702d?auto=format&fit=crop&w=1800&q=90"
-                        data-type="image">
-                        <div class="media-frame"><img
-                                src="https://images.unsplash.com/photo-1559028012-481c04fa702d?auto=format&fit=crop&w=1800&q=90"
-                                alt="Website design">
-                            <div class="media-overlay"></div><span class="media-badge">View Image</span>
-                        </div>
-                        <div class="work-meta">
-                            <div>
-                                <h3>Website Design & Development</h3>
-                                <p>Modern interface, responsive layout and a clear conversion journey.</p>
-                            </div><span class="work-type">01 / Website</span>
-                        </div>
-                    </a>
-                    <a class="work-card reveal delay-1" href="#"
-                        data-media="https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&w=1500&q=90"
-                        data-type="image">
-                        <div class="media-frame"><img
-                                src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&w=1500&q=90"
-                                alt="Social media design">
-                            <div class="media-overlay"></div><span class="media-badge">View Image</span>
-                        </div>
-                        <div class="work-meta">
-                            <div>
-                                <h3>Social Media Campaign</h3>
-                                <p>Scroll-stopping creative direction for social channels.</p>
-                            </div><span class="work-type">02 / Social</span>
-                        </div>
-                    </a>
-                    <a class="work-card reveal" href="#"
-                        data-media="https://cdn.coverr.co/videos/coverr-a-man-working-on-a-laptop-1575/1080p.mp4"
-                        data-type="video">
-                        <div class="media-frame"><video
-                                src="https://cdn.coverr.co/videos/coverr-a-man-working-on-a-laptop-1575/1080p.mp4" muted
-                                loop autoplay playsinline></video>
-                            <div class="media-overlay"></div><span class="play-btn"><i
-                                    class="bi bi-play-fill"></i></span><span class="media-badge">Play Video</span>
-                        </div>
-                        <div class="work-meta">
-                            <div>
-                                <h3>Content & Video</h3>
-                                <p>Short-form video treatment for products, promotions and campaigns.</p>
-                            </div><span class="work-type">03 / Video</span>
-                        </div>
-                    </a>
-                    <a class="work-card reveal delay-1" href="#"
-                        data-media="https://images.unsplash.com/photo-1542744094-3a31f272c490?auto=format&fit=crop&w=1500&q=90"
-                        data-type="image">
-                        <div class="media-frame"><img
-                                src="https://images.unsplash.com/photo-1542744094-3a31f272c490?auto=format&fit=crop&w=1500&q=90"
-                                alt="Brand identity">
-                            <div class="media-overlay"></div><span class="media-badge">View Image</span>
-                        </div>
-                        <div class="work-meta">
-                            <div>
-                                <h3>Brand Identity</h3>
-                                <p>Visual systems, graphics and brand direction designed for consistency.</p>
-                            </div><span class="work-type">04 / Branding</span>
-                        </div>
-                    </a>
-                    <a class="work-card large reveal" href="#"
-                        data-media="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1800&q=90"
-                        data-type="image">
-                        <div class="media-frame"><img
-                                src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1800&q=90"
-                                alt="Analytics dashboard">
-                            <div class="media-overlay"></div><span class="media-badge">View Image</span>
-                        </div>
-                        <div class="work-meta">
-                            <div>
-                                <h3>Performance & Analytics</h3>
-                                <p>Data-led creative and reporting concepts for growth-focused teams.</p>
-                            </div><span class="work-type">05 / Growth</span>
-                        </div>
-                    </a>
+      </div>
+    </section>
+
+    <!-- =====================================================
+     VIDEO WORK SECTION
+===================================================== -->
+
+    <section class="projects-video-section">
+      <div class="container-fluid px-0">
+        <!-- Section Heading -->
+        <div class="projects-heading text-center">
+
+          <div class="eyebrow reveal delay-1">
+            We Make Brands Stand For More.
+          </div>
+
+          <h2 class="display reveal delay-2">
+            Videos That Move
+            People <span class="highlighted_txt">To Act</span>
+          </h2>
+          <p class="section-lead reveal delay-3">
+            Scroll-stopping reels engineered for views,
+            engagement and real-world results.
+          </p>
+        </div>
+        <!-- =================================================
+             SWIPER
+        ================================================== -->
+
+        <div class="swiper projects-video-swiper reveal delay-3">
+          <div class="swiper-wrapper">
+            <!-- VIDEO 1 -->
+            <div class="swiper-slide">
+              <div class="project-video-card">
+                <video class="project-video" autoplay muted loop playsinline preload="metadata"
+                  controlslist="nodownload noplaybackrate" disablepictureinpicture oncontextmenu="return false;">
+                  <source src="assets/videos/iphone-doc.mp4" type="video/mp4">
+                </video>
+                <!-- Controls -->
+                <div class="project-video-controls">
+                  <button type="button" class="video-btn video-play-btn" aria-label="Pause video">
+                    <i class="bi bi-pause-fill"></i>
+                  </button>
+
+                  <button type="button" class="video-btn video-mute-btn" aria-label="Unmute video">
+                    <i class="bi bi-volume-mute-fill"></i>
+                  </button>
                 </div>
-                <div class="work-cta reveal"><a class="outline-btn" href="index.html#contact">Start a Project <i
-                            class="bi bi-arrow-up-right"></i></a></div>
+                <!-- VIDEO PROGRESS -->
+                <div class="video-progress-wrapper">
+                  <div class="video-progress-bar"></div>
+                </div>
+                <!-- Bottom Content -->
+                <div class="project-video-content">
+                  <h3>
+                    Brand Reel
+                  </h3>
+                  <p>
+                    Short-form content designed to
+                    increase reach and engagement.
+                  </p>
+                </div>
+              </div>
             </div>
-        </section>
-        <section class="contact section">
-            <div class="container">
-                <div class="eyebrow reveal">Your Work Next</div>
-                <h2 class="display reveal">Have something <span>worth showing?</span></h2>
-                <p class="section-lead reveal" style="margin-top:30px">Drop your brief on WhatsApp and let’s create the
-                    next case study together.</p>
+
+
+            <!-- VIDEO 2 -->
+            <div class="swiper-slide">
+              <div class="project-video-card">
+                <video class="project-video" autoplay muted loop playsinline preload="metadata"
+                  controlslist="nodownload noplaybackrate" disablepictureinpicture oncontextmenu="return false;">
+                  <source src="assets/videos/reel-shoot-1.mp4" type="video/mp4">
+                </video>
+
+
+                <div class="project-video-controls">
+                  <button type="button" class="video-btn video-play-btn" aria-label="Pause video">
+                    <i class="bi bi-pause-fill"></i>
+                  </button>
+                  <button type="button" class="video-btn video-mute-btn" aria-label="Unmute video">
+                    <i class="bi bi-volume-mute-fill"></i>
+                  </button>
+                </div>
+                <!-- VIDEO PROGRESS -->
+                <div class="video-progress-wrapper">
+                  <div class="video-progress-bar"></div>
+                </div>
+                <div class="project-video-content">
+                  <h3>
+                    Product Story
+                  </h3>
+                  <p>
+                    Product-focused storytelling created
+                    for social media campaigns.
+                  </p>
+                </div>
+              </div>
             </div>
-        </section>
-    </main>
+
+
+            <!-- VIDEO 3 -->
+            <div class="swiper-slide">
+              <div class="project-video-card">
+                <video class="project-video" autoplay muted loop playsinline preload="metadata"
+                  controlslist="nodownload noplaybackrate" disablepictureinpicture oncontextmenu="return false;">
+                  <source src="assets/videos/reel-shoot-2.mp4" type="video/mp4">
+                </video>
+                <div class="project-video-controls">
+                  <button type="button" class="video-btn video-play-btn" aria-label="Pause video">
+                    <i class="bi bi-pause-fill"></i>
+                  </button>
+
+                  <button type="button" class="video-btn video-mute-btn" aria-label="Unmute video">
+                    <i class="bi bi-volume-mute-fill"></i>
+                  </button>
+                </div>
+                <!-- VIDEO PROGRESS -->
+                <div class="video-progress-wrapper">
+                  <div class="video-progress-bar"></div>
+                </div>
+                <div class="project-video-content">
+                  <h3>
+                    Authority Reel
+                  </h3>
+
+                  <p>
+                    Visual content designed to establish
+                    trust and brand authority.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+
+            <!-- VIDEO 4 -->
+            <div class="swiper-slide">
+              <div class="project-video-card">
+                <video class="project-video" autoplay muted loop playsinline preload="metadata"
+                  controlslist="nodownload noplaybackrate" disablepictureinpicture oncontextmenu="return false;">
+                  <source src="assets/videos/reel-shoot-3.mp4" type="video/mp4">
+                </video>
+                <div class="project-video-controls">
+                  <button type="button" class="video-btn video-play-btn">
+                    <i class="bi bi-pause-fill"></i>
+                  </button>
+                  <button type="button" class="video-btn video-mute-btn">
+                    <i class="bi bi-volume-mute-fill"></i>
+                  </button>
+                </div>
+                <!-- VIDEO PROGRESS -->
+                <div class="video-progress-wrapper">
+                  <div class="video-progress-bar"></div>
+                </div>
+                <div class="project-video-content">
+                  <h3>
+                    Product Campaign
+                  </h3>
+                  <p>
+                    High-impact visual content created
+                    for product promotion.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+
+            <!-- VIDEO 5 -->
+            <div class="swiper-slide">
+              <div class="project-video-card">
+                <video class="project-video" autoplay muted loop playsinline preload="metadata"
+                  controlslist="nodownload noplaybackrate" disablepictureinpicture oncontextmenu="return false;">
+                  <source src="assets/videos/reel-shoot-4.mp4" type="video/mp4">
+                </video>
+                <div class="project-video-controls">
+                  <button type="button" class="video-btn video-play-btn">
+                    <i class="bi bi-pause-fill"></i>
+                  </button>
+                  <button type="button" class="video-btn video-mute-btn">
+                    <i class="bi bi-volume-mute-fill"></i>
+                  </button>
+                </div>
+                <!-- VIDEO PROGRESS -->
+                <div class="video-progress-wrapper">
+                  <div class="video-progress-bar"></div>
+                </div>
+                <div class="project-video-content">
+                  <h3>
+                    Marketing Creative
+                  </h3>
+                  <p>
+                    Campaign content built to capture
+                    attention and drive action.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+
+            <!-- VIDEO 6 -->
+            <div class="swiper-slide">
+              <div class="project-video-card">
+                <video class="project-video" autoplay muted loop playsinline preload="metadata"
+                  controlslist="nodownload noplaybackrate" disablepictureinpicture oncontextmenu="return false;">
+                  <source src="assets/videos/reel-shoot-5.mp4" type="video/mp4">
+                </video>
+                <div class="project-video-controls">
+                  <button type="button" class="video-btn video-play-btn">
+                    <i class="bi bi-pause-fill"></i>
+                  </button>
+                  <button type="button" class="video-btn video-mute-btn">
+                    <i class="bi bi-volume-mute-fill"></i>
+                  </button>
+                </div>
+                <!-- VIDEO PROGRESS -->
+                <div class="video-progress-wrapper">
+                  <div class="video-progress-bar"></div>
+                </div>
+                <div class="project-video-content">
+                  <h3>
+                    Social Reel
+                  </h3>
+                  <p>
+                    Engaging reels created to improve
+                    social visibility.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- VIDEO 6 -->
+            <div class="swiper-slide">
+              <div class="project-video-card">
+                <video class="project-video" autoplay muted loop playsinline preload="metadata"
+                  controlslist="nodownload noplaybackrate" disablepictureinpicture oncontextmenu="return false;">
+                  <source src="assets/videos/reel-shoot-6.mp4" type="video/mp4">
+                </video>
+                <div class="project-video-controls">
+                  <button type="button" class="video-btn video-play-btn">
+                    <i class="bi bi-pause-fill"></i>
+                  </button>
+                  <button type="button" class="video-btn video-mute-btn">
+                    <i class="bi bi-volume-mute-fill"></i>
+                  </button>
+                </div>
+                <!-- VIDEO PROGRESS -->
+                <div class="video-progress-wrapper">
+                  <div class="video-progress-bar"></div>
+                </div>
+                <div class="project-video-content">
+                  <h3>
+                    Social Reel
+                  </h3>
+                  <p>
+                    Engaging reels created to improve
+                    social visibility.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- VIDEO 7-->
+            <div class="swiper-slide">
+              <div class="project-video-card">
+                <video class="project-video" autoplay muted loop playsinline preload="metadata"
+                  controlslist="nodownload noplaybackrate" disablepictureinpicture oncontextmenu="return false;">
+                  <source src="assets/videos/reel-shoot-7.mp4" type="video/mp4">
+                </video>
+                <div class="project-video-controls">
+                  <button type="button" class="video-btn video-play-btn">
+                    <i class="bi bi-pause-fill"></i>
+                  </button>
+                  <button type="button" class="video-btn video-mute-btn">
+                    <i class="bi bi-volume-mute-fill"></i>
+                  </button>
+                </div>
+                <!-- VIDEO PROGRESS -->
+                <div class="video-progress-wrapper">
+                  <div class="video-progress-bar"></div>
+                </div>
+                <div class="project-video-content">
+                  <h3>
+                    Social Reel
+                  </h3>
+                  <p>
+                    Engaging reels created to improve
+                    social visibility.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- VIDEO 8 -->
+            <div class="swiper-slide">
+              <div class="project-video-card">
+                <video class="project-video" autoplay muted loop playsinline preload="metadata"
+                  controlslist="nodownload noplaybackrate" disablepictureinpicture oncontextmenu="return false;">
+                  <source src="assets/videos/reel-shoot-8.mp4" type="video/mp4">
+                </video>
+                <div class="project-video-controls">
+                  <button type="button" class="video-btn video-play-btn">
+                    <i class="bi bi-pause-fill"></i>
+                  </button>
+                  <button type="button" class="video-btn video-mute-btn">
+                    <i class="bi bi-volume-mute-fill"></i>
+                  </button>
+                </div>
+                <!-- VIDEO PROGRESS -->
+                <div class="video-progress-wrapper">
+                  <div class="video-progress-bar"></div>
+                </div>
+                <div class="project-video-content">
+                  <h3>
+                    Social Reel
+                  </h3>
+                  <p>
+                    Engaging reels created to improve
+                    social visibility.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================
+     IMAGE WORK SECTION
+===================================================== -->
+
+    <section class="projects-gallery-section main_section_padding">
+      <div class="container">
+        <!-- Heading -->
+        <div class="gallery-heading row">
+          <div class="col-md-7">
+            <div class="eyebrow reveal delay-1 left">
+              SELECTED WORK
+            </div>
+            <h2 class="display reveal left delay-2">
+              Visual work that
+              <span class="highlighted_txt">speaks for itself</span>.
+            </h2>
+          </div>
+          <div class="col-md-5 align-content-center">
+            <p class="section-lead reveal right delay-1">
+              A selection of websites, social media creatives,
+              branding and digital experiences.
+            </p>
+          </div>
+        </div>
+
+        <!-- =================================================
+             BOOTSTRAP TABS
+        ================================================== -->
+        <div class="projects-filter reveal delay-1">
+          <ul class="nav nav-pills" id="projectTabs" role="tablist">
+            <li class="nav-item">
+              <button class="nav-link active" data-filter="*" type="button">
+                All Work
+              </button>
+            </li>
+
+            <li class="nav-item">
+              <button class="nav-link" data-filter=".web-design" type="button">
+                Web Design
+              </button>
+            </li>
+
+            <li class="nav-item">
+              <button class="nav-link" data-filter=".social-media" type="button">
+                Social Media
+              </button>
+            </li>
+
+            <li class="nav-item">
+              <button class="nav-link" data-filter=".branding" type="button">
+                Branding
+              </button>
+            </li>
+
+            <li class="nav-item">
+              <button class="nav-link" data-filter=".product-photoshoot" type="button">
+                Product Photoshoot
+              </button>
+            </li>
+
+          </ul>
+
+        </div>
+
+
+        <!-- =================================================
+             ISOTOPE GRID
+        ================================================== -->
+
+        <div class="projects-gallery-grid reveal delay-2">
+
+          <!-- WEBSITE DESIGN -->
+          <div class="gallery-item web-design">
+            <a href="assets/images/work/kunal-website-design.jpg" class="gallery-lightbox" data-gallery="projects"
+              data-title="Modern Website Design">
+
+              <div class="gallery-card">
+                <img src="assets/images/work/kunal-website-design.jpg" alt="Modern Website Design" loading="lazy">
+                <div class="gallery-overlay">
+                  <div>
+                    <span>
+                      WEBSITE DESIGN
+                    </span>
+                    <h3>
+                      Modern Portfolio
+                    </h3>
+                  </div>
+                  <div class="gallery-arrow">
+                    <i class="bi bi-arrow-up-right"></i>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- Social media -->
+
+          <div class="gallery-item social-media">
+            <a href="assets/images/work/social-media-work-1.png" class="gallery-lightbox" data-gallery="projects"
+              data-title="Social Media Creative">
+              <div class="gallery-card">
+                <img src="assets/images/work/social-media-work-1.png" alt="Social Media instagram" loading="lazy">
+                <div class="gallery-overlay">
+                  <div>
+                    <span>
+                      SOCIAL MEDIA
+                    </span>
+                    <h3>
+                      Instagram account growth
+                    </h3>
+                  </div>
+                  <div class="gallery-arrow">
+                    <i class="bi bi-arrow-up-right"></i>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="gallery-item social-media">
+            <a href="assets/images/work/social-media-work-2.png" class="gallery-lightbox" data-gallery="projects"
+              data-title="Social Media">
+              <div class="gallery-card">
+                <img src="assets/images/work/social-media-work-2.png" alt="Social Media" loading="lazy">
+                <div class="gallery-overlay">
+                  <div>
+                    <span>
+                      SOCIAL MEDIA
+                    </span>
+                    <h3>
+                      Instagram account growth
+                    </h3>
+                  </div>
+                  <div class="gallery-arrow">
+                    <i class="bi bi-arrow-up-right"></i>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- Product Photoshoot -->
+
+          <div class="gallery-item product-photoshoot">
+            <a href="assets/images/work/product-shoot-1.png" class="gallery-lightbox" data-gallery="projects"
+              data-title="Product photoshoot">
+              <div class="gallery-card">
+                <img src="assets/images/work/product-shoot-1.png" alt="Product photoshoot" loading="lazy">
+                <div class="gallery-overlay">
+                  <div>
+                    <span>
+                      Photoshoot
+                    </span>
+                    <h3>
+                      Statue photoshoot
+                    </h3>
+                  </div>
+                  <div class="gallery-arrow">
+                    <i class="bi bi-arrow-up-right"></i>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="gallery-item product-photoshoot">
+            <a href="assets/images/work/product-shoot-2.png" class="gallery-lightbox" data-gallery="projects"
+              data-title="Landing Page Design">
+              <div class="gallery-card">
+                <img src="assets/images/work/product-shoot-2.png" alt="Landing Page Design" loading="lazy">
+
+                <div class="gallery-overlay">
+                  <div>
+                    <span>
+                      Photoshoot
+                    </span>
+                    <h3>
+                      Ornaments Photoshoot
+                    </h3>
+                  </div>
+                  <div class="gallery-arrow">
+                    <i class="bi bi-arrow-up-right"></i>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="gallery-item product-photoshoot">
+            <a href="assets/images/work/product-shoot-3.png" class="gallery-lightbox" data-gallery="projects"
+              data-title="Landing Page Design">
+              <div class="gallery-card">
+                <img src="assets/images/work/product-shoot-3.png" alt="Landing Page Design" loading="lazy">
+
+                <div class="gallery-overlay">
+                  <div>
+                    <span>
+                      Photoshoot
+                    </span>
+                    <h3>
+                      Statue Photoshoot
+                    </h3>
+                  </div>
+                  <div class="gallery-arrow">
+                    <i class="bi bi-arrow-up-right"></i>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="gallery-item product-photoshoot">
+            <a href="assets/images/work/product-shoot-4.png" class="gallery-lightbox" data-gallery="projects"
+              data-title="Landing Page Design">
+              <div class="gallery-card">
+                <img src="assets/images/work/product-shoot-4.png" alt="Landing Page Design" loading="lazy">
+
+                <div class="gallery-overlay">
+                  <div>
+                    <span>
+                      Photoshoot
+                    </span>
+                    <h3>
+                      Statue Photoshoot
+                    </h3>
+                  </div>
+                  <div class="gallery-arrow">
+                    <i class="bi bi-arrow-up-right"></i>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="gallery-item product-photoshoot">
+            <a href="assets/images/work/product-shoot-5.png" class="gallery-lightbox" data-gallery="projects"
+              data-title="Landing Page Design">
+              <div class="gallery-card">
+                <img src="assets/images/work/product-shoot-5.png" alt="Landing Page Design" loading="lazy">
+
+                <div class="gallery-overlay">
+                  <div>
+                    <span>
+                      Photoshoot
+                    </span>
+                    <h3>
+                      Ornaments Photoshoot
+                    </h3>
+                  </div>
+                  <div class="gallery-arrow">
+                    <i class="bi bi-arrow-up-right"></i>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="gallery-item product-photoshoot">
+            <a href="assets/images/work/product-shoot-6.png" class="gallery-lightbox" data-gallery="projects"
+              data-title="Landing Page Design">
+              <div class="gallery-card">
+                <img src="assets/images/work/product-shoot-6.png" alt="Landing Page Design" loading="lazy">
+
+                <div class="gallery-overlay">
+                  <div>
+                    <span>
+                      Photoshoot
+                    </span>
+                    <h3>
+                      Ornaments Photoshoot
+                    </h3>
+                  </div>
+                  <div class="gallery-arrow">
+                    <i class="bi bi-arrow-up-right"></i>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- Branding images -->
+
+          <div class="gallery-item branding">
+            <a href="assets/images/work/logo-branding-2.png" class="gallery-lightbox" data-gallery="projects"
+              data-title="Logo Creation">
+              <div class="gallery-card">
+                <img src="assets/images/work/logo-branding-2.png" alt="Logo Creation" loading="lazy">
+
+                <div class="gallery-overlay">
+                  <div>
+                    <span>
+                      Logo Creation
+                    </span>
+                    <h3>
+                       Instagram Page Logo
+                    </h3>
+                  </div>
+                  <div class="gallery-arrow">
+                    <i class="bi bi-arrow-up-right"></i>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="gallery-item branding">
+            <a href="assets/images/work/lakhdatar-food-logo.jpg" class="gallery-lightbox" data-gallery="projects"
+              data-title="Logo Creation">
+              <div class="gallery-card">
+                <img src="assets/images/work/lakhdatar-food-logo.jpg" alt="Logo Creation" loading="lazy">
+
+                <div class="gallery-overlay">
+                  <div>
+                    <span>
+                      Logo Creation
+                    </span>
+                    <h3>
+                      Lakhdatar - Fastfood & Cafe Kishangarh
+                    </h3>
+                  </div>
+                  <div class="gallery-arrow">
+                    <i class="bi bi-arrow-up-right"></i>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="gallery-item branding">
+            <a href="assets/images/work/riwaaz-logo.jpg" class="gallery-lightbox" data-gallery="projects"
+              data-title="Logo Creation">
+              <div class="gallery-card">
+                <img src="assets/images/work/riwaaz-logo.jpg" alt="Logo Creation" loading="lazy">
+
+                <div class="gallery-overlay">
+                  <div>
+                    <span>
+                      Logo Creation
+                    </span>
+                    <h3>
+                      Riwaaz Sarees
+                    </h3>
+                  </div>
+                  <div class="gallery-arrow">
+                    <i class="bi bi-arrow-up-right"></i>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="gallery-item branding">
+            <a href="assets/images/work/gg-nursery-logo.png" class="gallery-lightbox" data-gallery="projects"
+              data-title="Logo Creation">
+              <div class="gallery-card">
+                <img src="assets/images/work/gg-nursery-logo.png" alt="Logo Creation" loading="lazy">
+
+                <div class="gallery-overlay">
+                  <div>
+                    <span>
+                      Logo Creation
+                    </span>
+                    <h3>
+                      GG Nursery - Kishangarh
+                    </h3>
+                  </div>
+                  <div class="gallery-arrow">
+                    <i class="bi bi-arrow-up-right"></i>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="gallery-item branding">
+            <a href="assets/images/work/stone-bazaar-logo.jpg" class="gallery-lightbox" data-gallery="projects"
+              data-title="Logo Creation">
+              <div class="gallery-card">
+                <img src="assets/images/work/stone-bazaar-logo.jpg" alt="Logo Creation" loading="lazy">
+
+                <div class="gallery-overlay">
+                  <div>
+                    <span>
+                      Logo Creation
+                    </span>
+                    <h3>
+                      Stone bazaar - Future Of Stone Trade
+                    </h3>
+                  </div>
+                  <div class="gallery-arrow">
+                    <i class="bi bi-arrow-up-right"></i>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="gallery-item branding">
+            <a href="assets/images/work/wednova-logo.png" class="gallery-lightbox" data-gallery="projects"
+              data-title="Logo Creation">
+              <div class="gallery-card">
+                <img src="assets/images/work/wednova-logo.png" alt="Logo Creation" loading="lazy">
+
+                <div class="gallery-overlay">
+                  <div>
+                    <span>
+                      Logo Creation
+                    </span>
+                    <h3>
+                      Wedding Photoshoot Studio
+                    </h3>
+                  </div>
+                  <div class="gallery-arrow">
+                    <i class="bi bi-arrow-up-right"></i>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="gallery-item branding">
+            <a href="assets/images/work/yadav-marbles-logo.jpg" class="gallery-lightbox" data-gallery="projects"
+              data-title="Logo Creation">
+              <div class="gallery-card">
+                <img src="assets/images/work/yadav-marbles-logo.jpg" alt="Logo Creation" loading="lazy">
+
+                <div class="gallery-overlay">
+                  <div>
+                    <span>
+                      Logo Creation
+                    </span>
+                    <h3>
+                      Yadav Marble & Granite
+                    </h3>
+                  </div>
+                  <div class="gallery-arrow">
+                    <i class="bi bi-arrow-up-right"></i>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="gallery-item branding">
+            <a href="assets/images/work/brandora-logo.png" class="gallery-lightbox" data-gallery="projects"
+              data-title="Logo Creation">
+              <div class="gallery-card">
+                <img src="assets/images/work/brandora-logo.png" alt="Logo Creation" loading="lazy">
+
+                <div class="gallery-overlay">
+                  <div>
+                    <span>
+                      Logo Creation
+                    </span>
+                    <h3>
+                      Bandora- Digital Marketing Agency
+                    </h3>
+                  </div>
+                  <div class="gallery-arrow">
+                    <i class="bi bi-arrow-up-right"></i>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+               <div class="gallery-item branding">
+            <a href="assets/images/work/veerteja-icecream-logo.jpg" class="gallery-lightbox" data-gallery="projects"
+              data-title="Logo Creation">
+              <div class="gallery-card">
+                <img src="assets/images/work/veerteja-icecream-logo.jpg" alt="Logo Creation" loading="lazy">
+
+                <div class="gallery-overlay">
+                  <div>
+                    <span>
+                      Logo Creation
+                    </span>
+                    <h3>
+                      Veer Teja Ice-cream Parlour - Kishangarh
+                    </h3>
+                  </div>
+                  <div class="gallery-arrow">
+                    <i class="bi bi-arrow-up-right"></i>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
 
   <footer class="portfolio-footer">
     <div class="footer-container">
-      <div class="footer-cta">
+      <div class="footer-cta reveal delay-2">
         <div class="footer-cta-content">
 
-          <span class="footer-eyebrow">
+          <span class="footer-eyebrow reveal ">
             HAVE A PROJECT IN MIND?
           </span>
 
@@ -152,18 +886,10 @@
 
       </div>
 
-
-      <!-- ================================
-             FOOTER MAIN
-        ================================= -->
-
-      <div class="footer-main">
-
+      <div class="footer-main reveal delay-3">
         <!-- BRAND -->
-
         <div class="footer-brand">
-
-          <a href="#" class="footer-logo">
+          <a href="index.html" class="footer-logo">
             K<span>G</span>
           </a>
 
@@ -219,7 +945,7 @@
           </a>
 
 
-          <a href="https://wa.me/919782237999" target="_blank" class="footer-contact-item">
+          <a href="https://wa.me/+919782237999" target="_blank" class="footer-contact-item">
 
             <div class="footer-icons whatsapp-icon">
               <i class="bi bi-whatsapp"></i>
@@ -251,7 +977,7 @@
               <i class="bi bi-arrow-up-right"></i>
             </a>
 
-            <a href="https://www.instagram.com/kunal_garg1001?igsh=MXh6Mm15emNqYzBuYg==" target="_blank"
+            <a href="https://www.instagram.com/brandora_digit?igsh=MWo5YmxwMGpnbDJoMA==" target="_blank"
               class="footer-social-link ">
               <span>
                 <i class="bi bi-instagram"></i>
@@ -280,13 +1006,10 @@
           </span>
 
           <nav class="footer-nav">
-            <a href="#home">Home</a>
-
-            <a href="#about">About</a>
-
-            <a href="#services">Services</a>
-
-            <a href="#work">Work</a>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="projects.html">Work</a>
           </nav>
 
         </div>
@@ -305,14 +1028,752 @@
       </div>
     </div>
   </footer>
+
   <!-- floating whatsapp btn -->
-  <a class="whatsapp" href="https://wa.me/9782237999" target="_blank" rel="noopener" aria-label="WhatsApp">
+  <a class="whatsapp" href="https://wa.me/+919782237999" target="_blank" rel="noopener" aria-label="WhatsApp">
     <i class="bi bi-whatsapp"></i>
   </a>
 
-    <button class="backtop" aria-label="Back to top"><i class="bi bi-arrow-up"></i></button>
-    <div class="media-modal">
-        <div class="modal-inner"></div>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/main.js"></script>
+  <button class="backtop" aria-label="Back to top"><i class="bi bi-arrow-up"></i></button>
+  <div class="media-modal">
+    <div class="modal-inner"></div>
+  </div>
+
+  <!-- js links -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12.0.3/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/glightbox@3.3.1/dist/js/glightbox.min.js"></script>
+  <script src="assets/js/main.js"></script>
+
+  <script>
+    // /* =====================================================
+    //    SWIPER VIDEO SLIDER
+    // ===================================================== */
+
+    // const videoSwiper = new Swiper('.projects-video-swiper', {
+
+    //   slidesPerView: 'auto',
+
+    //   spaceBetween: 16,
+
+    //   loop: true,
+
+    //   speed: 3000,
+
+    //   centeredSlides: false,
+
+    //   grabCursor: true,
+
+    //   watchSlidesProgress: true,
+
+    //   allowTouchMove: true,
+
+    //   freeMode: {
+    //     enabled: true,
+    //     momentum: false
+    //   },
+
+    //   autoplay: {
+
+    //     delay: 0,
+
+    //     disableOnInteraction: false,
+
+    //     pauseOnMouseEnter: true
+
+    //   },
+
+    //   breakpoints: {
+
+    //     0: {
+
+    //       spaceBetween: 10
+
+    //     },
+
+    //     576: {
+
+    //       spaceBetween: 12
+
+    //     },
+
+    //     992: {
+
+    //       spaceBetween: 16
+
+    //     }
+
+    //   }
+
+    // });
+
+
+    // /* =====================================================
+    //    PAUSE SWIPER ON INTERACTION
+    // ===================================================== */
+
+    // const videoSwiperElement =
+    //   document.querySelector('.projects-video-swiper');
+
+
+    // if (videoSwiperElement) {
+
+    //   videoSwiperElement.addEventListener(
+    //     'mouseenter',
+    //     () => {
+
+    //       videoSwiper.autoplay.stop();
+
+    //     }
+    //   );
+
+
+    //   videoSwiperElement.addEventListener(
+    //     'mouseleave',
+    //     () => {
+
+    //       videoSwiper.autoplay.start();
+
+    //     }
+    //   );
+
+    // }
+
+
+    // /* =====================================================
+    //    VIDEO PLAY / PAUSE
+    // ===================================================== */
+
+    // document
+    //   .querySelectorAll('.video-play-btn')
+    //   .forEach(button => {
+
+    //     button.addEventListener('click', function (e) {
+
+    //       e.preventDefault();
+
+    //       e.stopPropagation();
+
+    //       const card =
+    //         this.closest('.project-video-card');
+
+    //       const video =
+    //         card.querySelector('.project-video');
+
+    //       const icon =
+    //         this.querySelector('i');
+
+
+    //       if (video.paused) {
+
+    //         video.play();
+
+    //         icon.className =
+    //           'bi bi-pause-fill';
+
+    //         this.setAttribute(
+    //           'aria-label',
+    //           'Pause video'
+    //         );
+
+    //       } else {
+
+    //         video.pause();
+
+    //         icon.className =
+    //           'bi bi-play-fill';
+
+    //         this.setAttribute(
+    //           'aria-label',
+    //           'Play video'
+    //         );
+
+    //       }
+
+    //     });
+
+    //   });
+
+
+    // /* =====================================================
+    //    VIDEO MUTE / UNMUTE
+    // ===================================================== */
+
+    // document
+    //   .querySelectorAll('.video-mute-btn')
+    //   .forEach(button => {
+
+    //     button.addEventListener('click', function (e) {
+
+    //       e.preventDefault();
+
+    //       e.stopPropagation();
+
+    //       const card =
+    //         this.closest('.project-video-card');
+
+    //       const video =
+    //         card.querySelector('.project-video');
+
+    //       const icon =
+    //         this.querySelector('i');
+
+
+    //       video.muted = !video.muted;
+
+
+    //       if (video.muted) {
+
+    //         icon.className =
+    //           'bi bi-volume-mute-fill';
+
+    //         this.setAttribute(
+    //           'aria-label',
+    //           'Unmute video'
+    //         );
+
+    //       } else {
+
+    //         icon.className =
+    //           'bi bi-volume-up-fill';
+
+    //         this.setAttribute(
+    //           'aria-label',
+    //           'Mute video'
+    //         );
+
+    //       }
+
+    //     });
+
+    //   });
+
+
+    // /* =====================================================
+    //    VIDEO ICON SYNC
+    // ===================================================== */
+
+    // document
+    //   .querySelectorAll('.project-video')
+    //   .forEach(video => {
+
+    //     video.addEventListener('play', function () {
+
+    //       const card =
+    //         this.closest('.project-video-card');
+
+    //       const icon =
+    //         card.querySelector(
+    //           '.video-play-btn i'
+    //         );
+
+    //       icon.className =
+    //         'bi bi-pause-fill';
+
+    //     });
+
+
+    //     video.addEventListener('pause', function () {
+
+    //       const card =
+    //         this.closest('.project-video-card');
+
+    //       const icon =
+    //         card.querySelector(
+    //           '.video-play-btn i'
+    //         );
+
+    //       icon.className =
+    //         'bi bi-play-fill';
+
+    //     });
+
+    //   });
+
+
+    // /* =====================================================
+    //    VIDEO SECURITY / DISABLE CONTEXT MENU
+    // ===================================================== */
+
+    // document
+    //   .querySelectorAll('.project-video')
+    //   .forEach(video => {
+
+    //     video.addEventListener(
+    //       'contextmenu',
+    //       function (e) {
+
+    //         e.preventDefault();
+
+    //       }
+    //     );
+
+    //   });
+
+    /* =====================================================
+       SWIPER VIDEO SLIDER
+    ===================================================== */
+
+    const videoSwiper = new Swiper('.projects-video-swiper', {
+
+      slidesPerView: 'auto',
+      spaceBetween: 16,
+      loop: true,
+      speed: 2000,
+      allowTouchMove: true,
+      grabCursor: true,
+      watchSlidesProgress: true,
+      freeMode: {
+        enabled: true,
+        momentum: false
+      },
+
+      autoplay: {
+        delay: 0,
+        disableOnInteraction: false,
+        pauseOnMouseEnter: false
+
+      },
+
+      breakpoints: {
+
+        0: {
+          spaceBetween: 10
+        },
+
+        576: {
+          spaceBetween: 12
+        },
+
+        992: {
+          spaceBetween: 16
+        }
+
+      }
+
+    }
+    );
+
+
+    /* =====================================================
+       SLIDER INTERACTION CONTROL
+    ===================================================== */
+
+    const sliderElement =
+      document.querySelector('.projects-video-swiper');
+
+
+    let sliderInteraction = false;
+    /*
+     * Stop slider when mouse enters a VIDEO CARD.
+     *
+     * It will NOT stop just because the mouse
+     * is somewhere else inside the slider.
+     */
+    document
+      .querySelectorAll('.project-video-card')
+      .forEach(card => {
+
+        card.addEventListener(
+          'mouseenter',
+          function () {
+
+            sliderInteraction = true;
+
+            videoSwiper.autoplay.stop();
+
+          }
+        );
+
+
+        card.addEventListener(
+          'mouseleave',
+          function () {
+
+            sliderInteraction = false;
+
+            videoSwiper.autoplay.start();
+
+          }
+        );
+
+      });
+
+
+    /* =====================================================
+       PLAY / PAUSE BUTTON
+    ===================================================== */
+
+    document
+      .querySelectorAll('.video-play-btn')
+      .forEach(button => {
+
+        button.addEventListener(
+          'click',
+          function (e) {
+
+            e.preventDefault();
+            e.stopPropagation();
+
+            /*
+             * Keep slider stopped while
+             * user is interacting.
+             */
+            videoSwiper.autoplay.stop();
+
+            const card =
+              this.closest('.project-video-card');
+
+            const video =
+              card.querySelector('.project-video');
+
+            const icon =
+              this.querySelector('i');
+
+
+            if (video.paused) {
+
+              video.play();
+
+              icon.className =
+                'bi bi-pause-fill';
+
+              this.setAttribute(
+                'aria-label',
+                'Pause video'
+              );
+
+            } else {
+
+              video.pause();
+
+              icon.className =
+                'bi bi-play-fill';
+
+              this.setAttribute(
+                'aria-label',
+                'Play video'
+              );
+
+            }
+
+          }
+        );
+
+      });
+
+
+    /* =====================================================
+       MUTE / UNMUTE
+    ===================================================== */
+
+    document
+      .querySelectorAll('.video-mute-btn')
+      .forEach(button => {
+
+        button.addEventListener(
+          'click',
+          function (e) {
+
+            e.preventDefault();
+            e.stopPropagation();
+
+            /*
+             * Stop slider while interacting.
+             */
+            videoSwiper.autoplay.stop();
+
+            const card =
+              this.closest('.project-video-card');
+
+            const video =
+              card.querySelector('.project-video');
+
+            const icon =
+              this.querySelector('i');
+
+
+            video.muted =
+              !video.muted;
+
+
+            if (video.muted) {
+
+              icon.className =
+                'bi bi-volume-mute-fill';
+
+              this.setAttribute(
+                'aria-label',
+                'Unmute video'
+              );
+
+            } else {
+
+              icon.className =
+                'bi bi-volume-up-fill';
+
+              this.setAttribute(
+                'aria-label',
+                'Mute video'
+              );
+
+            }
+
+          }
+        );
+
+      });
+
+
+    /* =====================================================
+       VIDEO PLAY / PAUSE ICON SYNC
+    ===================================================== */
+
+    document
+      .querySelectorAll('.project-video')
+      .forEach(video => {
+
+
+        video.addEventListener(
+          'play',
+          function () {
+
+            const card =
+              this.closest('.project-video-card');
+
+            const icon =
+              card.querySelector(
+                '.video-play-btn i'
+              );
+
+            if (icon) {
+
+              icon.className =
+                'bi bi-pause-fill';
+
+            }
+
+          }
+        );
+
+
+        video.addEventListener(
+          'pause',
+          function () {
+
+            const card =
+              this.closest('.project-video-card');
+
+            const icon =
+              card.querySelector(
+                '.video-play-btn i'
+              );
+
+            if (icon) {
+
+              icon.className =
+                'bi bi-play-fill';
+
+            }
+
+          }
+        );
+
+      });
+
+
+    /* =====================================================
+       VIDEO PROGRESS
+    ===================================================== */
+
+    function updateVideoProgress() {
+
+      document
+        .querySelectorAll('.project-video')
+        .forEach(video => {
+
+          const card =
+            video.closest('.project-video-card');
+
+          const progress =
+            card.querySelector(
+              '.video-progress-bar'
+            );
+
+
+          if (
+            progress &&
+            video.duration &&
+            isFinite(video.duration)
+          ) {
+
+            const percentage =
+              (video.currentTime /
+                video.duration) * 100;
+
+
+            progress.style.width =
+              percentage + '%';
+
+          }
+
+        });
+
+
+      requestAnimationFrame(
+        updateVideoProgress
+      );
+
+    }
+
+
+    updateVideoProgress();
+
+
+    /* =====================================================
+       DISABLE VIDEO CONTEXT MENU
+    ===================================================== */
+
+    document
+      .querySelectorAll('.project-video')
+      .forEach(video => {
+
+        video.addEventListener(
+          'contextmenu',
+          function (e) {
+
+            e.preventDefault();
+
+          }
+        );
+
+      });
+
+
+    /* =====================================================
+       ISOTOPE GALLERY
+    ===================================================== */
+
+    const galleryGrid =
+      document.querySelector('.projects-gallery-grid');
+
+
+    let isotope;
+
+
+    if (galleryGrid) {
+
+      isotope = new Isotope(
+        galleryGrid,
+        {
+
+          itemSelector: '.gallery-item',
+          layoutMode: 'masonry',
+          percentPosition: true,
+          transitionDuration: '0.5s'
+
+        }
+      );
+
+    }
+
+
+    /* =====================================================
+       GALLERY FILTER TABS
+    ===================================================== */
+
+    document
+      .querySelectorAll(
+        '#projectTabs .nav-link'
+      )
+      .forEach(button => {
+
+        button.addEventListener(
+          'click',
+          function () {
+
+            document
+              .querySelectorAll(
+                '#projectTabs .nav-link'
+              )
+              .forEach(btn => {
+
+                btn.classList.remove(
+                  'active'
+                );
+
+              });
+
+
+            this.classList.add('active');
+
+
+            const filter =
+              this.getAttribute(
+                'data-filter'
+              );
+
+
+            if (isotope) {
+
+              isotope.arrange({
+                filter: filter
+              });
+
+            }
+
+          }
+        );
+
+      });
+
+
+    /* =====================================================
+       GLIGHTBOX
+    ===================================================== */
+
+    const projectLightbox = GLightbox({
+
+      selector: '.gallery-lightbox',
+
+      touchNavigation: true,
+
+      loop: false,
+
+      zoomable: true,
+
+      draggable: true,
+
+      openEffect: 'zoom',
+
+      closeEffect: 'fade',
+
+      slideEffect: 'slide',
+
+      moreText: 'View more',
+
+      skin: 'clean'
+
+    });
+
+
+    /* =====================================================
+       REFRESH ISOTOPE AFTER IMAGES LOAD
+    ===================================================== */
+
+    window.addEventListener(
+      'load',
+      function () {
+
+        if (isotope) {
+
+          isotope.layout();
+
+        }
+
+      }
+    );
+
+  </script>
