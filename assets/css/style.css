@@ -502,7 +502,7 @@ h4 {
 
 .about-main-grid {
   display: grid;
-  grid-template-columns: 420px 1fr;
+  grid-template-columns: 480px 1fr;
   align-items: center;
   gap: 60px;
   margin-top: 40px;
@@ -2309,14 +2309,13 @@ small.work_focus {
 
 
 .footer-cta h2 {
-  margin: 0;
-  max-width: 850px;
-  font-size: clamp(55px, 8vw, 108px);
-  line-height: .88;
-  letter-spacing: -.07em;
-  font-weight: 600;
+    margin: 0;
+    max-width: 980px;
+    font-size: clamp(55px, 8vw, 108px);
+    line-height: .95;
+    letter-spacing: -.04em;
+    font-weight: 800;
 }
-
 
 .footer-cta h2 span {
   display: block;
@@ -4185,6 +4184,7 @@ section#intro {
 ===================================================== */
 
 .project-video-content {
+  display: none;
   position: absolute;
   left: 18px;
   right: 18px;

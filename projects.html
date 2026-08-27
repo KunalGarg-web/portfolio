@@ -36,11 +36,9 @@
         <div class="top_banner_inner">
           <div class="top_banner_lable reveal delay-2">
             <span class="banner-line"></span>
-            PORTFOLIO / WORK
+           SELECTED WORK / CASE STUDIES
           </div>
-          <p class="reveal delay-3"> A collection of content, campaigns, visual stories
-            and digital experiences created to attract attention,
-            build brands and drive results.
+          <p class="reveal delay-3"> A Collection of digital campaigns, content, websites and brand experiences created to help businesses attract attention, build trust and turn digital activity into growth.
           </p>
         </div>
       </div>
@@ -56,16 +54,15 @@
         <div class="projects-heading text-center">
 
           <div class="eyebrow reveal delay-1">
-            We Make Brands Stand For More.
+            CONTENT THAT PERFORMS
           </div>
 
           <h2 class="display reveal delay-2">
-            Videos That Move
-            People <span class="highlighted_txt">To Act</span>
+           Creative Reels That Drives
+             <span class="highlighted_txt">Real Growth</span>
           </h2>
           <p class="section-lead reveal delay-3">
-            Scroll-stopping reels engineered for views,
-            engagement and real-world results.
+            We create short-form videos, product content and social campaigns designed to capture attention quickly — and give brands something worth remembering.
           </p>
         </div>
         <!-- =================================================
@@ -476,14 +473,16 @@
               SELECTED WORK
             </div>
             <h2 class="display reveal left delay-2">
-              Visual work that
-              <span class="highlighted_txt">speaks for itself</span>.
+            Creative Work That
+              <span class="highlighted_txt">Moves Business Forward.</span>.
             </h2>
           </div>
           <div class="col-md-5 align-content-center">
             <p class="section-lead reveal right delay-1">
-              A selection of websites, social media creatives,
-              branding and digital experiences.
+             Every project has a purpose.
+            </p>
+              <p class="section-lead reveal right delay-2">
+            From building a stronger brand identity to creating content that drives engagement, our work combines creative thinking with a clear business objective.
             </p>
           </div>
         </div>
@@ -495,7 +494,7 @@
           <ul class="nav nav-pills" id="projectTabs" role="tablist">
             <li class="nav-item">
               <button class="nav-link active" data-filter="*" type="button">
-                All Work
+                All
               </button>
             </li>
 
@@ -828,8 +827,8 @@
           </span>
 
           <h2>
-            Let's build
-            <span>something great.</span>
+            Your next stage of
+            <span>growth starts here.</span>
           </h2>
 
         </div>
@@ -1003,270 +1002,6 @@
   <script src="assets/js/main.js"></script>
 
   <script>
-    // /* =====================================================
-    //    SWIPER VIDEO SLIDER
-    // ===================================================== */
-
-    // const videoSwiper = new Swiper('.projects-video-swiper', {
-
-    //   slidesPerView: 'auto',
-
-    //   spaceBetween: 16,
-
-    //   loop: true,
-
-    //   speed: 3000,
-
-    //   centeredSlides: false,
-
-    //   grabCursor: true,
-
-    //   watchSlidesProgress: true,
-
-    //   allowTouchMove: true,
-
-    //   freeMode: {
-    //     enabled: true,
-    //     momentum: false
-    //   },
-
-    //   autoplay: {
-
-    //     delay: 0,
-
-    //     disableOnInteraction: false,
-
-    //     pauseOnMouseEnter: true
-
-    //   },
-
-    //   breakpoints: {
-
-    //     0: {
-
-    //       spaceBetween: 10
-
-    //     },
-
-    //     576: {
-
-    //       spaceBetween: 12
-
-    //     },
-
-    //     992: {
-
-    //       spaceBetween: 16
-
-    //     }
-
-    //   }
-
-    // });
-
-
-    // /* =====================================================
-    //    PAUSE SWIPER ON INTERACTION
-    // ===================================================== */
-
-    // const videoSwiperElement =
-    //   document.querySelector('.projects-video-swiper');
-
-
-    // if (videoSwiperElement) {
-
-    //   videoSwiperElement.addEventListener(
-    //     'mouseenter',
-    //     () => {
-
-    //       videoSwiper.autoplay.stop();
-
-    //     }
-    //   );
-
-
-    //   videoSwiperElement.addEventListener(
-    //     'mouseleave',
-    //     () => {
-
-    //       videoSwiper.autoplay.start();
-
-    //     }
-    //   );
-
-    // }
-
-
-    // /* =====================================================
-    //    VIDEO PLAY / PAUSE
-    // ===================================================== */
-
-    // document
-    //   .querySelectorAll('.video-play-btn')
-    //   .forEach(button => {
-
-    //     button.addEventListener('click', function (e) {
-
-    //       e.preventDefault();
-
-    //       e.stopPropagation();
-
-    //       const card =
-    //         this.closest('.project-video-card');
-
-    //       const video =
-    //         card.querySelector('.project-video');
-
-    //       const icon =
-    //         this.querySelector('i');
-
-
-    //       if (video.paused) {
-
-    //         video.play();
-
-    //         icon.className =
-    //           'bi bi-pause-fill';
-
-    //         this.setAttribute(
-    //           'aria-label',
-    //           'Pause video'
-    //         );
-
-    //       } else {
-
-    //         video.pause();
-
-    //         icon.className =
-    //           'bi bi-play-fill';
-
-    //         this.setAttribute(
-    //           'aria-label',
-    //           'Play video'
-    //         );
-
-    //       }
-
-    //     });
-
-    //   });
-
-
-    // /* =====================================================
-    //    VIDEO MUTE / UNMUTE
-    // ===================================================== */
-
-    // document
-    //   .querySelectorAll('.video-mute-btn')
-    //   .forEach(button => {
-
-    //     button.addEventListener('click', function (e) {
-
-    //       e.preventDefault();
-
-    //       e.stopPropagation();
-
-    //       const card =
-    //         this.closest('.project-video-card');
-
-    //       const video =
-    //         card.querySelector('.project-video');
-
-    //       const icon =
-    //         this.querySelector('i');
-
-
-    //       video.muted = !video.muted;
-
-
-    //       if (video.muted) {
-
-    //         icon.className =
-    //           'bi bi-volume-mute-fill';
-
-    //         this.setAttribute(
-    //           'aria-label',
-    //           'Unmute video'
-    //         );
-
-    //       } else {
-
-    //         icon.className =
-    //           'bi bi-volume-up-fill';
-
-    //         this.setAttribute(
-    //           'aria-label',
-    //           'Mute video'
-    //         );
-
-    //       }
-
-    //     });
-
-    //   });
-
-
-    // /* =====================================================
-    //    VIDEO ICON SYNC
-    // ===================================================== */
-
-    // document
-    //   .querySelectorAll('.project-video')
-    //   .forEach(video => {
-
-    //     video.addEventListener('play', function () {
-
-    //       const card =
-    //         this.closest('.project-video-card');
-
-    //       const icon =
-    //         card.querySelector(
-    //           '.video-play-btn i'
-    //         );
-
-    //       icon.className =
-    //         'bi bi-pause-fill';
-
-    //     });
-
-
-    //     video.addEventListener('pause', function () {
-
-    //       const card =
-    //         this.closest('.project-video-card');
-
-    //       const icon =
-    //         card.querySelector(
-    //           '.video-play-btn i'
-    //         );
-
-    //       icon.className =
-    //         'bi bi-play-fill';
-
-    //     });
-
-    //   });
-
-
-    // /* =====================================================
-    //    VIDEO SECURITY / DISABLE CONTEXT MENU
-    // ===================================================== */
-
-    // document
-    //   .querySelectorAll('.project-video')
-    //   .forEach(video => {
-
-    //     video.addEventListener(
-    //       'contextmenu',
-    //       function (e) {
-
-    //         e.preventDefault();
-
-    //       }
-    //     );
-
-    //   });
-
     /* =====================================================
        SWIPER VIDEO SLIDER
     ===================================================== */
@@ -1321,12 +1056,6 @@
 
 
     let sliderInteraction = false;
-    /*
-     * Stop slider when mouse enters a VIDEO CARD.
-     *
-     * It will NOT stop just because the mouse
-     * is somewhere else inside the slider.
-     */
     document
       .querySelectorAll('.project-video-card')
       .forEach(card => {
