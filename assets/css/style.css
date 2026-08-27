@@ -438,12 +438,8 @@ h4 {
 
 .top_banner_inner {
   position: relative;
-
   z-index: 2;
-
-  max-width: 900px;
-
-  padding: 100px 0 80px;
+  padding: 120px 0 80px;
 }
 
 
