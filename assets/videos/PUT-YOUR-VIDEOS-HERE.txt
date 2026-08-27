@@ -1,1 +1,0 @@
-Put your MP4/WebM videos in this folder and update portfolioItems in js/main.js.
