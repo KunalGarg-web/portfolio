@@ -39,8 +39,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const hiIcon = document.querySelector(".hi-icon");
   if (hiText && hiIcon) {
     const greetings = [
-      ["Hi!", "✋"],
-      ["Hello!", "👋"]
+      ["Hello!", "✋"],
+      ["I Am", "👋"]
     ];
     let i = 0;
     setInterval(() => {
