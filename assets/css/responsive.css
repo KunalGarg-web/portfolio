@@ -318,7 +318,8 @@
 
     .top_banner_lable {
         margin-bottom: 15px;
-        font-size: 32px;
+        font-size: 28px;
+        line-height: 36px;
     }
 
     .top_banner_inner p {
@@ -443,8 +444,8 @@
     }
 
     .hero-copy h1 {
-        font-size: 70px;
-        line-height: .82;
+        font-size: 82px;
+        line-height: 0.95;
     }
 
     .hero-copy h1 span {
@@ -460,12 +461,12 @@
     }
 
     .hero-actions {
-        justify-content: flex-start;
+        justify-content: center;
         flex-wrap: wrap;
     }
 
     .hero-visual {
-        height: 320px;
+        height: 360px;
         margin-top: 20px;
     }
 
