@@ -12,7 +12,8 @@
     .why-item h3,
     .work-meta h3,
     .service-card-content h3 {
-        font-size: 20px;
+        font-size: 22px;
+        line-height: 1.2;
     }
 
     .service-card-content p {
@@ -23,16 +24,12 @@
         font-size: 13px;
     }
 
-    .testimonial-main blockquote {
-        font-size: 16px
-    }
-
     .reviewer strong {
         font-size: 14px;
     }
 
-    .result-panel strong {
-        font-size: 34px;
+    .process-grid {
+        grid-template-columns: 1fr !important;
     }
 
     .work-meta p {
@@ -60,11 +57,6 @@
         padding: 0px 0;
         margin-bottom: 30px;
         min-height: unset;
-    }
-
-    .footer-cta h2 {
-        font-size: 38px;
-        line-height: 42px;
     }
 
     .footer-cta-btn {
@@ -97,74 +89,70 @@
 }
 
 @media(max-width:650px) {
-    .section {
-        padding: 95px 0
-    }
-
     .site-header {
-        top: 12px
+        top: 12px;
     }
 
     .header-shell {
         width: calc(100% - 24px);
         justify-content: space-between;
-        gap: 8px
+        gap: 8px;
     }
 
     .main-nav a {
         padding: 7px 8px;
-        font-size: 10px
+        font-size: 10px;
     }
 
     .brand {
-        font-size: 13px
+        font-size: 13px;
     }
 
     .header-cta {
-        display: none
+        display: none;
     }
 
     .hero {
-        padding-top: 130px
+        padding-top: 130px;
     }
 
     .hero-grid {
-        gap: 35px
+        gap: 35px;
     }
 
     .hero-portrait {
-        width: 76vw
+        width: 76vw;
     }
 
     .hero-side p {
-        font-size: 14px
+        font-size: 14px;
     }
 
     .hero-side.right .outline-btn {
-        display: none
+        display: none;
     }
 
     .work-grid {
         grid-template-columns: 1fr;
-        gap: 38px
+        gap: 38px;
     }
 
     .work-card.large {
-        grid-column: auto
+        grid-column: auto;
     }
 
     .media-frame,
     .work-card.large .media-frame {
-        aspect-ratio: 1.2/1
+        aspect-ratio: 1.2/1;
     }
 
     .work-meta {
-        display: block
+        display: block;
     }
 
     .work-type {
         display: block;
-        margin-top: 10px
+        margin-top: 10px;
     }
 
     .work-cta {
@@ -172,39 +160,36 @@
     }
 
     .display {
-        font-size: clamp(42px, 13vw, 72px);
-        margin-bottom: 30px;
+        font-size: 38px;
+        margin-bottom: 20px !important;
+        line-height: 42px;
     }
 
     .service-grid {
-        grid-template-columns: 1fr
+        grid-template-columns: 1fr;
     }
 
     .service-card {
-        min-height: 225px
+        min-height: 225px;
     }
 
     .service-icon {
-        margin-bottom: 35px
+        margin-bottom: 35px;
     }
 
     .filter-tabs {
         overflow-x: auto;
         flex-wrap: nowrap;
-        padding-bottom: 7px
+        padding-bottom: 7px;
     }
 
     .filter-btn {
-        white-space: nowrap
+        white-space: nowrap;
     }
 
     .testimonial-main,
     .result-panel {
-        padding: 30px
-    }
-
-    .testimonial-main blockquote {
-        font-size: 26px
+        padding: 30px;
     }
 
     .reviewer {
@@ -214,10 +199,6 @@
     .reviewer-avatar {
         width: 55px;
         height: 55px;
-    }
-
-    .process-grid {
-        grid-template-columns: 1fr
     }
 
     .process-card {
@@ -281,7 +262,11 @@
         top: 10px;
         right: 10px;
         padding: 6px 12px;
-        font-size: 10px;
+        font-size: 11px;
+    }
+
+    .testimonial-main blockquote {
+        font-size: 16px;
     }
 
     .work-heading {
@@ -299,13 +284,44 @@
         gap: 0;
     }
 
+    .hero-bottom {
+        margin-top: 0px
+    }
+
+    .services-main-grid {
+        margin-top: 30px;
+    }
+
+    .result-panel strong {
+        font-size: 38px;
+    }
+
+    .process-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-cta h2 {
+        font-size: 48px;
+        line-height: 42px;
+    }
+
+
 }
 
 @media(max-width:991px) {
+    .noise {
+        opacity: .060;
+        background-size: contain;
+    }
+
     .hero-grid {
         grid-template-columns: 1fr;
         gap: 45px;
         text-align: center
+    }
+
+    .process-head h2.display {
+        margin: unset;
     }
 
     .hero-side.right {
@@ -317,46 +333,38 @@
     }
 
     .hero-name-line {
-        justify-content: center
+        justify-content: center;
     }
 
     .hero-portrait {
-        width: min(350px, 70vw)
-    }
-
-    .hero-bottom {
-        margin-top: 30px
+        width: min(350px, 70vw);
     }
 
     .service-grid {
-        grid-template-columns: repeat(2, 1fr)
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .about-grid,
     .contact-grid,
     .why-grid {
         grid-template-columns: 1fr;
-        gap: 30px
+        gap: 30px;
     }
 
     .why-grid {
         margin-top: 20px;
     }
 
-    .process-grid {
-        grid-template-columns: repeat(2, 1fr)
-    }
-
     .testimonial-slide {
-        grid-template-columns: 1fr
+        grid-template-columns: 1fr;
     }
 
     .result-panel {
-        min-height: 230px
+        min-height: 230px;
     }
 
     .footer-grid {
-        grid-template-columns: 1fr 1fr
+        grid-template-columns: 1fr 1fr;
     }
 }
 
@@ -368,13 +376,11 @@
 
     .hero-main {
         padding: 55px 0 35px;
-
         gap: 40px;
     }
 
     .hero-copy h1 {
         font-size: 70px;
-
         line-height: .82;
     }
 
@@ -392,12 +398,12 @@
 
     .hero-actions {
         justify-content: flex-start;
-
         flex-wrap: wrap;
     }
 
     .hero-visual {
         height: 320px;
+        margin-top: 20px;
     }
 
     .hero-image-wrapper {
@@ -422,7 +428,7 @@
 
     .hero-float-one {
         left: -8px;
-        top: 10px;
+        top: 20px;
     }
 
     .hero-float-two {
@@ -441,18 +447,17 @@
 
     .hero-stats {
         width: 100%;
-
         justify-content: space-between;
-
         gap: 10px;
+        align-items: center;
     }
 
     .hero-stat strong {
-        font-size: 19px;
+        font-size: 32px;
     }
 
     .hero-stat span {
-        font-size: 7px;
+        text-align: center;
     }
 
     .hero-scroll {

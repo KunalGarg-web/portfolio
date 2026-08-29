@@ -2306,12 +2306,12 @@ small.work_focus {
 
 
 .footer-cta h2 {
-    margin: 0;
-    max-width: 980px;
-    font-size: clamp(55px, 8vw, 108px);
-    line-height: .95;
-    letter-spacing: -.04em;
-    font-weight: 800;
+  margin: 0;
+  max-width: 980px;
+  font-size: clamp(55px, 8vw, 108px);
+  line-height: .95;
+  letter-spacing: -.04em;
+  font-weight: 800;
 }
 
 .footer-cta h2 span {
@@ -2869,10 +2869,12 @@ small.work_focus {
   transition: background 0.3s ease-in-out;
   cursor: pointer
 }
-.backtop:hover{
-  background:var(--accent) ;
+
+.backtop:hover {
+  background: var(--accent);
   color: var(--white);
 }
+
 .backtop.show {
   opacity: 1;
   pointer-events: auto
@@ -3065,7 +3067,38 @@ section#intro {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  gap: 50px;
+  gap: 10px;
+}
+
+.service-card-content h3 {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 7px;
+}
+
+.service-card-content p {
+  margin-bottom: 35px;
+  font-size: 17px;
+  max-width: 580px;
+  color: var(--light-txt);
+}
+
+.service-tags span {
+  font-size: 14px;
+  background: #00000080;
+  padding: 6px 8px;
+  border-radius: 8px;
+}
+
+.service-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.service-arrow i {
+  font-size: 18px;
 }
 
 .btn_box {
@@ -3252,13 +3285,13 @@ section#intro {
 
 
 .hero-copy h1 {
-    margin: 0;
-    /* font-family: "Manrope", sans-serif; */
-    font-size: clamp(85px, 10vw, 154px);
-    font-weight: 800;
-    line-height: 0.95;
-    letter-spacing: -.05em;
-    text-transform: uppercase;
+  margin: 0;
+  /* font-family: "Manrope", sans-serif; */
+  font-size: clamp(85px, 10vw, 154px);
+  font-weight: 800;
+  line-height: 0.95;
+  letter-spacing: -.05em;
+  text-transform: uppercase;
 }
 
 
