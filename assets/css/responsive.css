@@ -100,25 +100,6 @@
 }
 
 @media(max-width:650px) {
-    .site-header {
-        top: 12px;
-    }
-
-    .header-shell {
-        width: calc(100% - 24px);
-        justify-content: space-between;
-        gap: 8px;
-    }
-
-    .main-nav a {
-        padding: 7px 8px;
-        font-size: 10px;
-    }
-
-    .brand {
-        font-size: 13px;
-    }
-
     .header-cta {
         display: none;
     }
@@ -256,21 +237,25 @@
 }
 
 @media(max-width:767px) {
+    main {
+        overflow: hidden;
+    }
+
     .site-header {
-        top: 10px;
+        top: 15px;
         padding: 0 10px;
         flex-direction: column;
     }
 
     .mobile-menu {
-        width: calc(100% - 0px);
+        width: 100%;
         margin: 6px 0;
     }
 
     .header-shell {
-        min-height: 58px;
         padding: 6px 7px 6px 18px;
-        border-radius: 50px;
+        width: 100%;
+        justify-content: space-between;
     }
 
     .brand {
