@@ -114,14 +114,15 @@ h4 {
 }
 
 .site-header {
-  position: fixed;
   top: 24px;
-  left: 0;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
   right: 0;
   z-index: 1199;
   display: flex;
   justify-content: center;
-  pointer-events: none;
 }
 
 .header-shell {
@@ -129,7 +130,7 @@ h4 {
   display: flex;
   align-items: center;
   gap: 26px;
-  padding: 10px 12px 10px 19px;
+  padding: 7px 10px 7px 22px;
   border: 1px solid rgba(255, 255, 255, .13);
   border-radius: 999px;
   background: rgba(13, 13, 13, .72);
@@ -167,14 +168,14 @@ h4 {
 .main-nav {
   display: flex;
   align-items: center;
-  gap: 8px
+  gap: 8px;
 }
 
 .main-nav a {
   padding: 8px 13px;
   border-radius: 999px;
   text-decoration: none;
-  color: #aaa8a0;
+  color: var(--light-txt);
   font-size: 12px;
   font-weight: 600;
   transition: .3s;
@@ -182,24 +183,115 @@ h4 {
 
 .main-nav a:hover,
 .main-nav a.active {
-  background: #fff;
-  color: #111
+  background: var(--white);
+  color: var(--bg);
 }
 
 .site-header.scrolled .main-nav a {
-  color: #111
+  color: #111;
 }
 
 .site-header.scrolled .main-nav a:hover,
 .site-header.scrolled .main-nav a.active {
   background: #111;
-  color: #fff
+  color: #fff;
 }
 
-.header-cta,
-.mobile-toggle {
-  display: none
+.main-nav a:hover:not(.active) {
+  transform: translateY(-1px);
 }
+
+/* =====================================================
+   MOBILE TOGGLE
+===================================================== */
+
+.mobile-toggle {
+  display: none;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 0;
+  outline: none;
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.mobile-toggle span {
+  width: 17px;
+  height: 1.5px;
+  background: var(--white);
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+
+/* =====================================================
+   MOBILE MENU
+===================================================== */
+
+.mobile-menu {
+  width: min(940px, calc(100% - 40px));
+  margin: 8px auto 0;
+  background: rgba(14, 14, 14, 0.96);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 24px;
+  backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: blur(25px);
+  overflow: hidden;
+  box-shadow:0 20px 60px rgba(0, 0, 0, 0.4);
+  position: relative;
+  z-index: 9999;
+}
+
+.mobile-menu-inner {
+  padding: 12px;
+}
+
+
+/* =====================================================
+   MOBILE LINKS
+===================================================== */
+
+.mobile-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 20px;
+  color: rgba(255, 255, 255, 0.65);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.mobile-link span {
+  margin-right: auto;
+  color: var(--muted);
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+
+.mobile-link:hover {
+  color: var(--white);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.mobile-link.active {
+  color: var(--bg);
+  background: var(--white);
+}
+
+.mobile-link.active span {
+  color: rgba(0, 0, 0, 0.4);
+}
+
 
 .hi-switch {
   display: inline-flex;
