@@ -256,6 +256,35 @@
 }
 
 @media(max-width:767px) {
+    .site-header {
+        top: 10px;
+        padding: 0 10px;
+        flex-direction: column;
+    }
+
+    .mobile-menu {
+        width: calc(100% - 0px);
+        margin: 6px 0;
+    }
+
+    .header-shell {
+        min-height: 58px;
+        padding: 6px 7px 6px 18px;
+        border-radius: 50px;
+    }
+
+    .brand {
+        font-size: 18px;
+    }
+
+    .main-nav {
+        display: none;
+    }
+
+    .mobile-toggle {
+        display: flex;
+    }
+
     .process {
         padding: 30px 20px;
         border-radius: 0;

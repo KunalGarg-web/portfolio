@@ -15,19 +15,55 @@
 <body>
   <div class="noise"></div>
   <div class="progress"></div>
-  <header class="site-header">
-    <div class="header-shell">
-      <a href="index.html" class="brand">Kunal Garg<span>.</span></a>
-      <nav class="main-nav">
-        <a href="index.html" class="">Home</a>
-        <a href="about.html" class="active">About</a>
-        <a href="services.html" class="">Services</a>
-        <a href="projects.html" class="">Results</a>
-      </nav>
-      <a class="header-cta" href="index.html#contact">Let's Talk</a>
-      <button class="mobile-toggle" aria-label="Menu"><i></i><i></i></button>
+<header class="site-header">
+  <div class="header-shell">
+    <!-- Logo -->
+    <a href="index.html" class="brand">Kunal Garg<span>.</span></a>
+    <!-- Desktop Navigation -->
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="about.html" class="active">About</a>
+      <a href="services.html">Services</a>
+      <a href="projects.html">Results</a>
+    </nav>
+    <!-- Mobile Toggle -->
+    <button
+      class="mobile-toggle"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#mobileMenu"
+      aria-controls="mobileMenu"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu collapse" id="mobileMenu">
+    <div class="mobile-menu-inner">
+      <a href="index.html" class="mobile-link ">
+        <span>01</span>
+        Home
+      </a>
+      <a href="about.html" class="mobile-link active">
+        <span>02</span>
+        About
+      </a>
+      <a href="services.html" class="mobile-link">
+        <span>03</span>
+        Services
+      </a>
+      <a href="projects.html" class="mobile-link">
+        <span>04</span>
+        Results
+      </a>
     </div>
-  </header>
+  </div>
+</header>
 
   <main class="about-page">
 
