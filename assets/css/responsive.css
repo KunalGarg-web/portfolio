@@ -496,7 +496,7 @@
     }
 
     .hero_visual_mobile {
-        display: flex;
+        display: flex !important;
     }
 
     .hero_visual_desktop {

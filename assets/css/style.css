@@ -3092,10 +3092,7 @@ section#intro {
   color: var(--accent);
 }
 .hero_visual_mobile{
-  display: none;
-}
-.hero_visual_desktop{
-  display: flex;
+  display: none !important;
 }
 /* =====================================================
    DESCRIPTION
